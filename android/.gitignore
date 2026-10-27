@@ -1,0 +1,11 @@
+# 构建产物
+build/
+.gradle/
+out/
+*.log
+local.properties
+
+# 工具链（体积大，用 tools/fetch-gradle.ps1 重新拉）
+tools/gradle-8.9/
+tools/sdk-install.log
+tools/sdk-install.err.log

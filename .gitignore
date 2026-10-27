@@ -1,0 +1,20 @@
+# 运行时数据：配对信息、同步基线、历史记录。删掉它等于"忘记所有配对"，不会动你的文件
+data/
+
+# 打包产物（便携版应用，用 packaging/build-app.ps1 生成）
+dist/
+
+# 传输过程中的临时文件（正常不会残留）
+*.part-*
+
+# 日志
+*.log
+
+# 依赖目录（本项目零依赖，这里只是防手滑）
+node_modules/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

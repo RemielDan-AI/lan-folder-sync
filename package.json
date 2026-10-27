@@ -1,0 +1,15 @@
+{
+  "name": "communication-lan-sync",
+  "version": "1.1.0",
+  "private": true,
+  "description": "局域网文件夹双向同步工具：可以共享多个文件夹，和同一局域网的另一台机器按文件夹配对同步（零第三方依赖）",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/diff.test.mjs test/sha256.test.mjs test/zip.test.mjs test/unzip.test.mjs test/e2e.test.mjs test/phone-peer.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
