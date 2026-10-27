@@ -5,6 +5,9 @@
 [![Tests](https://img.shields.io/badge/tests-72%20passing-22c55e.svg)](test)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3ddc84.svg)](android)
 
+> **国内镜像**：[gitee.com/yingying-monster-elite/lan-folder-sync](https://gitee.com/yingying-monster-elite/lan-folder-sync)
+> —— GitHub 访问不畅时走这个；代码与 GitHub 一致，更新后在 Gitee 仓库页点一次「强制同步」即可。
+
 把几个文件夹共享出来，和同一局域网的另一台电脑（或手机）按"文件夹对文件夹"同步。
 **双向同步、冲突由你决定、删除默认关闭**；**零第三方依赖**，桌面端只要 Node.js 20+ 就能跑，
 也可以直接用打好的免安装包；手机端是原生 App，**能选整个文件夹**。
